@@ -3,7 +3,7 @@ import pytest
 
 class Test_001:
     @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)
-    @allure.step(titil="fd")
+    @allure.step(title="fd")
     def test_001_1(self):
         allure.attach("描述","输入用户名")
         allure.attach("描述", '输入密码')
